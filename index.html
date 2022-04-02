@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="./css/style.css">
+    <script src="./scripts/index.js"
+        defer></script>
+    <title>Carousel</title>
+</head>
+
+<body>
+
+    <section class="slider">
+        <ul id="slides"
+            class='slider__slides'>
+            <li class="slider__slide slider__slide_showing"></li>
+            <li class="slider__slide"></li>
+            <li class="slider__slide"></li>
+            <li class="slider__slide"></li>
+            <li class="slider__slide"></li>
+        </ul>
+        <span id='arrow-prev'
+            class='slider__arrow slider__arrow_prev'></span>
+        <span id='arrow-next'
+            class='slider__arrow slider__arrow_next'></span>
+        <div id='toggle-radio'
+            class='slider__radio'>
+            <input type="radio"
+                name="radio"
+                value='0'
+                checked>
+            <input type="radio"
+                name="radio"
+                value='1'>
+            <input type="radio"
+                name="radio"
+                value='2'>
+            <input type="radio"
+                name="radio"
+                value='3'>
+            <input type="radio"
+                name="radio"
+                value='4'>
+        </div>
+        <ul id="slides-min"
+            class="slider__min">
+            <li class="slider__item slider__item_showing"><img src="./images/item_1.jfif"
+                    data-id='0'></li>
+            <li class="slider__item"><img src="./images/item_2.jfif"
+                    data-id='1'></li>
+            <li class="slider__item"><img src="./images/item_3.jfif"
+                    data-id='2'></li>
+            <li class="slider__item"><img src="./images/item_4.jpg"
+                    data-id='3'></li>
+            <li class="slider__item"><img src="./images/item_5.png"
+                    data-id='4'></li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
